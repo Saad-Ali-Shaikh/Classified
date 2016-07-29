@@ -1,0 +1,76 @@
+﻿body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+span {
+    font-style: italic;
+}
+
+.main-content {
+    margin: auto;
+    width: 50%;
+}
+h1 {
+    text-align: center;
+}
+.item {
+    background-color: lightgrey;
+    padding: 8px;
+    width: 700px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+    .item img {
+		margin: 8px;
+        height: 40px;
+        width: 40px;
+        float: left;
+    }
+
+.item-content {
+    background-color: lightgrey;
+    width: 100%;
+}
+
+#title {
+    vertical-align: top;
+    font: 18px arial, sans-serif;
+    margin: 0px 10px;
+    display: table-cell;
+}
+
+span {
+    margin: 0 10px;
+}
+
+#description {
+    font: 12px arial, sans-serif;
+    display: table-cell;
+    vertical-align: bottom;
+    padding: 0 20px;
+}
+
+#specificInfo {
+    vertical-align: central;
+    font: 10px arial, sans-serif;
+}
+
+#price { 
+    /*display: table-cell;*/
+    vertical-align: top;
+}
+
+#condition { 
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+.left-content {
+    float: left;
+
+}
+
+.right-content {
+    float: right;
+}
